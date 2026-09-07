@@ -59,7 +59,7 @@ The graph is treated as a complex network in which:
 
 The dataset provides a realistic environment for investigating whether network behavior can be preserved after substantial graph reduction.
 
-![](Aspose.Words.86ff8177-4167-4fd5-944c-810b9b697e8b.001.png)
+<img width="491" height="330" alt="Aspose Words 86ff8177-4167-4fd5-944c-810b9b697e8b 001" src="https://github.com/user-attachments/assets/12045072-670b-4a5e-b8fd-98f221ceb078" />
 
 *The original LastFM network graph* 
 
@@ -82,7 +82,8 @@ Behavioral Evaluation
 
 The sampled graph is subsequently analyzed using network metrics and diffusion simulations.
 
-![](Aspose.Words.86ff8177-4167-4fd5-944c-810b9b697e8b.002.png)
+<img width="407" height="335" alt="Aspose Words 86ff8177-4167-4fd5-944c-810b9b697e8b 002" src="https://github.com/user-attachments/assets/96e1563c-8422-41ec-b858-27a8e26b21c6" />
+
 
 *Sample graph produced by the HYB method* 
 
@@ -109,7 +110,6 @@ Sampled Graph
 
 This approach attempts to preserve important connectivity patterns by retaining paths that connect randomly selected nodes. In practice, the project used NetworkX's  all\_shortest\_paths (rather than a raw Dijkstra implementation) so that, when multiple shortest paths exist between two nodes, all of them are kept — not just one. As with the HYB method, sampling continued until the sample graph reached **20% of the original graph's edges**.
 
-![](Aspose.Words.86ff8177-4167-4fd5-944c-810b9b697e8b.003.png)
 
 *Sample graph produced by the shortest-path*
 
