@@ -110,6 +110,7 @@ Sampled Graph
 
 This approach attempts to preserve important connectivity patterns by retaining paths that connect randomly selected nodes. In practice, the project used NetworkX's  all\_shortest\_paths (rather than a raw Dijkstra implementation) so that, when multiple shortest paths exist between two nodes, all of them are kept — not just one. As with the HYB method, sampling continued until the sample graph reached **20% of the original graph's edges**.
 
+<img width="453" height="347" alt="Aspose Words 86ff8177-4167-4fd5-944c-810b9b697e8b 003" src="https://github.com/user-attachments/assets/7cf47ddb-1210-49b1-bc3e-484d790127e5" />
 
 *Sample graph produced by the shortest-path*
 
@@ -330,7 +331,8 @@ The analysis focuses on:
 
 **Result:** Comparing the two sampled graphs by taking their top 5/10/15 highest-degree nodes and running Independent Cascade on the *original* graph, the **shortest-path sampling method outperformed HYB**, producing greater influence/diffusion overall. As the number of seed (infected) nodes increased, the gap between the two methods narrowed — at 10 seed nodes their results converged closely.
 
-![](Aspose.Words.86ff8177-4167-4fd5-944c-810b9b697e8b.004.png)
+<img width="462" height="224" alt="Aspose Words 86ff8177-4167-4fd5-944c-810b9b697e8b 004" src="https://github.com/user-attachments/assets/1f045edd-8a5d-4e12-8da8-b0a8ee5dc424" />
+
 
 A useful final results section could contain:
 
