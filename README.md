@@ -1,5 +1,5 @@
 # **Graph Sampling & Social Network Analysis**
-### **Sampling Complex Social Networks While Preserving Their Behavior**
+### **Assessing Sampling Methods of Complex Networks**
 
 **Graph Sampling · Network Science · Centrality · Diffusion Models · Social Networks**
 
