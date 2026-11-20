@@ -15,6 +15,11 @@ The project investigates two sampling strategies:
 
 The resulting graphs are evaluated against the original network using **degree centrality and the Independent Cascade diffusion model** to determine how closely the sampled networks resemble the original.
 
+## Report
+- [Final Report (Persian)](final/New%20folder/Final%20Project.pdf)
+- [Final Report (English)](final/New%20folder/Final_Project_English.pdf)
+
+
 ## **Research Question**
 **How much can a social network be reduced while preserving its important structural and diffusion behavior?**
 
